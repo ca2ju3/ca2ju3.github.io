@@ -10,5 +10,23 @@
 	<atom:link href="https://ca2ju3.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Hometown</title>
+      <link>https://ca2ju3.github.io/categories/hometown/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ca2ju3.github.io/categories/hometown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tech</title>
+      <link>https://ca2ju3.github.io/categories/tech/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://ca2ju3.github.io/categories/tech/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

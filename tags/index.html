@@ -108,7 +108,8 @@
         </a>
         <h4 class="sidebar-profile-name">蔡钧</h4>
         
-          <h5 class="sidebar-profile-bio">Super bio with markdown support <strong>COOL</strong></h5>
+          <h5 class="sidebar-profile-bio"><p><p>我是一个超过10年工作经验的城市务工人员，擅长搬砖，码墙！</p>
+</h5>
         
       </div>
     
@@ -223,12 +224,119 @@
         class="
                hasCoverMetaIn
                ">
-        <section class="postShorten-group main-content-wrap">
-          
-          
-          
 
-        </section>
+        <div id="tags-archives" class="main-content-wrap">
+          <form id="filter-form" action="#">
+            <input name="tag" type="text" class="form-control input--xlarge" placeholder="Search tag" autofocus="autofocus">
+          </form>
+          <h4 class="archive-result text-color-base text-xlarge"
+              data-message-zero="no tag found"
+              data-message-one="1 tag found"
+              data-message-other="{n} tags found"></h4>
+
+            <section>
+              
+                <a class="tag tag--primary tag--small" href="#home-list" data-tag="home">
+                  home
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#hugo-list" data-tag="hugo">
+                  hugo
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#life-list" data-tag="life">
+                  life
+                </a>
+              
+                <a class="tag tag--primary tag--small" href="#tech-list" data-tag="tech">
+                  tech
+                </a>
+              
+            </section>
+            <section class="boxes">
+              
+                <div id="home-list" class="archive box" data-tag="home">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="home">
+                      home (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://ca2ju3.github.io/2018/02/">
+                          
+                        </a>
+                        <span class="archive-post-date"> - 
+  February 17, 2018
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="hugo-list" class="archive box" data-tag="hugo">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="hugo">
+                      hugo (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://ca2ju3.github.io/2018/02/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+                          用Hugo建立自己的博客
+                        </a>
+                        <span class="archive-post-date"> - 
+  February 17, 2018
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="life-list" class="archive box" data-tag="life">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="life">
+                      life (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://ca2ju3.github.io/2018/02/">
+                          
+                        </a>
+                        <span class="archive-post-date"> - 
+  February 17, 2018
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+                <div id="tech-list" class="archive box" data-tag="tech">
+                  <h4 class="archive-title">
+                    <a class="link-unstyled" href="tech">
+                      tech (1)
+                    </a>
+                  </h4>
+                  <ul class="archive-posts">
+                    
+                      <li class="archive-post">
+                        <a class="archive-post-title" href="https://ca2ju3.github.io/2018/02/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
+                          用Hugo建立自己的博客
+                        </a>
+                        <span class="archive-post-date"> - 
+  February 17, 2018
+</span>
+                      </li>
+                    
+                  </ul>
+                </div>
+              
+           </section>
+         </div>
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2018 蔡钧. All Rights Reserved
@@ -237,7 +345,6 @@
 
       </div>
     </div>
-    
     <div id="about">
   <div id="about-card">
     <div id="about-btn-close">
@@ -248,13 +355,14 @@
     
     <h4 id="about-card-name">蔡钧</h4>
     
-      <div id="about-card-bio">Super bio with markdown support <strong>COOL</strong></div>
+      <div id="about-card-bio"><p><p>我是一个超过10年工作经验的城市务工人员，擅长搬砖，码墙！</p>
+</div>
     
     
       <div id="about-card-job">
         <i class="fa fa-briefcase"></i>
         <br/>
-        Your job title
+        Hello world!
       </div>
     
     
@@ -267,37 +375,6 @@
   </div>
 </div>
 
-    <div id="algolia-search-modal" class="modal-container">
-  <div class="modal">
-    <div class="modal-header">
-      <span class="close-button"><i class="fa fa-close"></i></span>
-      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
-        <span class="searchby-algolia-text text-color-light text-small">by</span>
-        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
-      </a>
-      <i class="search-icon fa fa-search"></i>
-      <form id="algolia-search-form">
-        <input type="text" id="algolia-search-input" name="search"
-          class="form-control input--large search-input" placeholder="Search" />
-      </form>
-    </div>
-    <div class="modal-body">
-      <div class="no-result text-color-light text-center">no post found</div>
-      <div class="results">
-        
-        
-      </div>
-    </div>
-    <div class="modal-footer">
-      <p class="results-count text-medium"
-         data-message-zero="no post found"
-         data-message-one="1 post found"
-         data-message-other="{n} posts found">
-         0 posts found
-      </p>
-    </div>
-  </div>
-</div>
     
   
     
@@ -305,7 +382,8 @@
   
 
 
-    
+  </body>
+  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
@@ -332,7 +410,4 @@ $(document).ready(function() {
 
 
 
-    
-  </body>
 </html>
-
