@@ -267,20 +267,54 @@
             <div class="main-content-wrap">
               <h1 id="table-of-contents">Table of Contents</h1><nav id="TableOfContents">
 <ul>
-<li><a href="#hugo">Hugo</a>
+<li><a href="#安装">安装</a></li>
+<li><a href="#搭建过程中-遇到的问题">搭建过程中，遇到的问题</a>
 <ul>
-<li><a href="#hugo-1">Hugo</a></li>
+<li><a href="#为什么没有生产public文件夹">为什么没有生产public文件夹</a></li>
+<li><a href="#为什么使用hugo生成博客的过程中-生成的是xml文件-而不是html文件">为什么使用hugo生成博客的过程中，生成的是xml文件，而不是html文件</a></li>
+<li><a href="#hugo-i18n-no-such-file-or-directory">hugo i18n: no such file or directory</a></li>
 </ul></li>
 </ul>
 </nav>
 
 <p></p>
 
-<h1 id="hugo">Hugo</h1>
+<p>参考很多网上的资料后，终于使用hugo建立了一个简单的博客系统。在这个过程中遇到了很多问题。我建立博客的流程和遇到的问题都将记录在这篇文档里面。</p>
 
-<p>在网上参考很多资料后，终于使用hugo建立了一个简单的博客系统，过程中遇到了很多问题。建立博客的流程和遇到的问题都将记录在这篇文档里面。</p>
+<h1 id="安装">安装</h1>
 
-<h2 id="hugo-1">Hugo</h2>
+<p><a href="https://gohugo.io/getting-started/installing/#linux">官方文档</a>
+有几种安装方式，一种是用apt-get，一种是snap，一种是源码包安装。
+我推荐使用第三种方式。
+<a href="https://github.com/gohugoio/hugo/releases">源码包</a></p>
+
+<h1 id="搭建过程中-遇到的问题">搭建过程中，遇到的问题</h1>
+
+<h2 id="为什么没有生产public文件夹">为什么没有生产public文件夹</h2>
+
+<pre><code class="language-shell">hugo new file.md
+</code></pre>
+
+<p>使用上面这条命令生成markdown文件的话，会生产一个属性为draft的文件。需要将文档中的draft: true删除或者使用hugo命令的时候，带上参数&ndash;buildDrafts 如下，</p>
+
+<pre><code class="language-shell">hugo --buildDrafts
+</code></pre>
+
+<h2 id="为什么使用hugo生成博客的过程中-生成的是xml文件-而不是html文件">为什么使用hugo生成博客的过程中，生成的是xml文件，而不是html文件</h2>
+
+<p>使用hugo生成博客，如果不制定theme的话，那么hugo只会生成xml文件。解决的方式有两种，
+* 一种是使用hugo命令的时候，带上参数 -t 如下，</p>
+
+<pre><code class="language-shell">hugo -t hyde
+</code></pre>
+
+<ul>
+<li>另一种是将{theme}目录下的layout和static文件分别复制到根目录的layout和static</li>
+</ul>
+
+<h2 id="hugo-i18n-no-such-file-or-directory">hugo i18n: no such file or directory</h2>
+
+<p>这个主要是由于缺失语言文件，需要将{theme}目录下的i18n复制到跟目录。</p>
               
             </div>
           </div>
@@ -584,7 +618,7 @@ $(document).ready(function() {
         var disqus_config = function () {
           this.page.url = '\/\/www.blueice.io\/2018\/02\/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2\/';
           
-            this.page.identifier = '\/2018\/02\/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2\/'
+            this.page.identifier = 'hugoblog';
           
         };
         (function() {
