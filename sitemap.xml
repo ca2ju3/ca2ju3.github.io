@@ -3,75 +3,75 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.blueice.io/2018/02/%E6%A2%85%E5%B7%9E/</loc>
+    <loc>//www.blueice.io/2018/02/%E6%A2%85%E5%B7%9E/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/2018/02/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</loc>
+    <loc>//www.blueice.io/2018/02/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/archives/</loc>
+    <loc>//www.blueice.io/archives/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/categories/</loc>
+    <loc>//www.blueice.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/tags/home/</loc>
-    <lastmod>2018-02-17T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://www.blueice.io/categories/hometown/</loc>
+    <loc>//www.blueice.io/tags/home/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/tags/hugo/</loc>
+    <loc>//www.blueice.io/categories/hometown/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/tags/life/</loc>
+    <loc>//www.blueice.io/tags/hugo/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/post/</loc>
+    <loc>//www.blueice.io/tags/life/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/tags/</loc>
+    <loc>//www.blueice.io/post/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/tags/tech/</loc>
+    <loc>//www.blueice.io/tags/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/categories/tech/</loc>
+    <loc>//www.blueice.io/tags/tech/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://www.blueice.io/</loc>
+    <loc>//www.blueice.io/categories/tech/</loc>
+    <lastmod>2018-02-17T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>//www.blueice.io/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>

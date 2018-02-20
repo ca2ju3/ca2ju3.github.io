@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on 蔡钧的博客</title>
-    <link>https://www.blueice.io/tags/</link>
+    <link>//www.blueice.io/tags/</link>
     <description>Recent content in Tags on 蔡钧的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 17 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.blueice.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="//www.blueice.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Home</title>
-      <link>https://www.blueice.io/tags/home/</link>
+      <link>//www.blueice.io/tags/home/</link>
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.blueice.io/tags/home/</guid>
+      <guid>//www.blueice.io/tags/home/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Hugo</title>
-      <link>https://www.blueice.io/tags/hugo/</link>
+      <link>//www.blueice.io/tags/hugo/</link>
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.blueice.io/tags/hugo/</guid>
+      <guid>//www.blueice.io/tags/hugo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Life</title>
-      <link>https://www.blueice.io/tags/life/</link>
+      <link>//www.blueice.io/tags/life/</link>
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.blueice.io/tags/life/</guid>
+      <guid>//www.blueice.io/tags/life/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tech</title>
-      <link>https://www.blueice.io/tags/tech/</link>
+      <link>//www.blueice.io/tags/tech/</link>
       <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://www.blueice.io/tags/tech/</guid>
+      <guid>//www.blueice.io/tags/tech/</guid>
       <description></description>
     </item>
     
