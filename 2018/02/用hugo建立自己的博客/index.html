@@ -271,6 +271,12 @@
 <li><a href="#使用">使用</a></li>
 <li><a href="#部署到github-io">部署到github.io</a></li>
 <li><a href="#部署到coding-me">部署到coding.me</a></li>
+<li><a href="#统计代码">统计代码</a>
+<ul>
+<li><a href="#文章统计">文章统计</a></li>
+<li><a href="#网站统计">网站统计</a></li>
+</ul></li>
+<li><a href="#博客评论">博客评论</a></li>
 <li><a href="#搭建过程中-遇到的问题">搭建过程中，遇到的问题</a>
 <ul>
 <li><a href="#为什么没有生成public文件夹">为什么没有生成public文件夹</a></li>
@@ -297,11 +303,27 @@
 
 <h1 id="部署到github-io">部署到github.io</h1>
 
-<p><em>TODO</em></p>
+<p>使用Github Pages会有一些<a href="https://help.github.com/articles/what-is-github-pages/#usage-limits">限制</a> ，我的博客估计长时间都会在这个限制的范围内，因此没有太多的顾虑。Github Pages有两种，一种是用户主页，一种是项目主页。这里说的都是用户主页，并且使用的是master分支。</p>
+
+<p>将Hugo生成的博客，部署到Github Pages，有以下几个步骤，</p>
+
+<ol>
+<li><p>新建一个项目，命名规则是{你的账号}.github.io</p></li>
+
+<li><p>把public文件夹下面的文件提交到{你的账号}.github.io这个项目</p></li>
+</ol>
+
+<p>参考，<a href="https://help.github.com/articles/user-organization-and-project-pages/">Github pages的官方文档</a></p>
+
+<p>​</p>
+
+<p>除此之外，你可以自定义自己的域名。你只需要在{你的账号}.github.io这个项目的根目录新建一个CNAME文件，文件里面写上你的域名。然后，ping {你的账号}.github.io 获取博客的ip地址，最后，去到这个域名的管理后台，把这个ip和域名绑定在一起。</p>
 
 <h1 id="部署到coding-me">部署到coding.me</h1>
 
-<p>由于github访问速度比较慢，我将博客部署了一份到国内的coding.me。coding.me同样支持静态网页的部署，不过有个局限就是需要升级为银牌会员，才能支持自定义域名。</p>
+<p>由于github访问在国内的访问速度比较慢，因此我将博客部署了一份到国内的coding.me。</p>
+
+<p>coding.me同样支持静态网页的部署，不过有个局限就是需要升级为银牌会员，才能支持自定义域名。</p>
 
 <ol>
 <li><p>新建一个项目，命名规则是{你的账号}.coding.me;</p></li>
@@ -310,6 +332,20 @@
 </ol>
 
 <p>参考，<a href="https://coding.net/help/doc/pages/creating-pages.html">coding官方文档</a></p>
+
+<h1 id="统计代码">统计代码</h1>
+
+<h2 id="文章统计">文章统计</h2>
+
+<p>我在博客中使用的是 <a href="http://busuanzi.ibruce.info/">不蒜子</a> 统计。这个统计代码比较简单，只需要将它的两行代码加入到你的博客的公共区域，就能实现计数。不过，它支持统计，没有接口可以提供，因此你也就没有办法做一些，比如阅读排行榜之类的功能了。</p>
+
+<h2 id="网站统计">网站统计</h2>
+
+<p>这个不多说，<a href="http://tongji.baidu.com/">百度统计</a>和<a href="http://www.google.cn/webmasters/">谷歌统计</a>。</p>
+
+<h1 id="博客评论">博客评论</h1>
+
+<p><strong>TODO</strong></p>
 
 <h1 id="搭建过程中-遇到的问题">搭建过程中，遇到的问题</h1>
 
