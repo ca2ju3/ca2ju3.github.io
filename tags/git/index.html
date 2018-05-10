@@ -1,9 +1,5 @@
 
 
-  
-    
-  
-
 
   
 
@@ -20,29 +16,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="generator" content="Hugo 0.36 with theme Tranquilpeak 0.4.3-BETA">
-    <title>负载均衡</title>
+    <title>Git</title>
     <meta name="author" content="I&#39;m 蔡钧.">
     <meta name="keywords" content="">
 
     <link rel="icon" href="http://www.blueice.io/favicon.png">
     
+      <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.blueice.io/tags/git/index.xml">
+    
 
     
-    <meta name="description" content="
-
-">
-    <meta property="og:description" content="
-
-">
+    <meta name="description" content="蔡钧的个人博客,技术博客,IT博客,blog">
+    <meta property="og:description" content="蔡钧的个人博客,技术博客,IT博客,blog">
     <meta property="og:type" content="blog">
-    <meta property="og:title" content="负载均衡">
-    <meta property="og:url" content="/2018/03/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/">
+    <meta property="og:title" content="Git">
+    <meta property="og:url" content="/tags/git/">
     <meta property="og:site_name" content="蔡钧的博客">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="蔡钧的博客">
-    <meta name="twitter:description" content="
-
-">
+    <meta name="twitter:description" content="蔡钧的个人博客,技术博客,IT博客,blog">
     
     
 
@@ -88,7 +80,7 @@
 
   <body>
     <div id="blog">
-      <header id="header" data-behavior="5">
+      <header id="header" data-behavior="2">
   <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
   <div class="header-title">
     <a class="header-title-link" href="http://www.blueice.io/">蔡钧的博客</a>
@@ -108,7 +100,7 @@
   
 </header>
 
-      <nav id="sidebar" data-behavior="5">
+      <nav id="sidebar" data-behavior="2">
   <div class="sidebar-container">
     
       <div class="sidebar-profile">
@@ -227,26 +219,44 @@
 </nav>
 
       
+        
 
-      <div id="main" data-behavior="5"
+      
+      <div id="main" data-behavior="2"
         class="
                hasCoverMetaIn
                ">
-        <article class="post" itemscope itemType="http://schema.org/BlogPosting">
-          
-          
-            <div class="post-header main-content-wrap text-left">
+        
+          <section class="postShorten-group main-content-wrap">
+            
+            
+              
   
-    <h1 class="post-title" itemprop="headline">
-      负载均衡
-    </h1>
+    
+      
+        
+      
+    
   
+
+
   
+
+<article class="postShorten postShorten--thumbnailimg-bottom" itemscope itemType="http://schema.org/BlogPosting">
+  <div class="postShorten-wrap">
+    
+    <div class="postShorten-header">
+      <h1 class="postShorten-title" itemprop="headline">
+        <a class="link-unstyled" href="http://www.blueice.io/2018/04/git/">
+          Git
+        </a>
+      </h1>
+      
   <div class="postShorten-meta post-meta">
     
-      <time itemprop="datePublished" datetime="2018-03-16T00:00:00Z">
+      <time itemprop="datePublished" datetime="2018-04-09T00:00:00Z">
         
-  March 16, 2018
+  April 9, 2018
 
       </time>
     
@@ -261,123 +271,25 @@
 
   </div>
 
-</div>
-          
-          <div class="post-content markdown" itemprop="articleBody">
-            <div class="main-content-wrap">
-              <h1 id="table-of-contents">Table of Contents</h1><nav id="TableOfContents">
-<ul>
-<li><a href="#什么是负载均衡">什么是负载均衡</a></li>
-</ul>
-</nav>
+    </div>
+    <div class="postShorten-excerpt" itemprop="articleBody">
+      <!--toc-->
 
 <p></p>
-
-<p>当前几乎所有的互联网系统都会使用到负载均衡。<strong>TODO</strong></p>
-
-<h1 id="什么是负载均衡">什么是负载均衡</h1>
-
-<p>可以这样通俗的理解，在车站买过票的伙伴们都知道，车站卖票的窗口如果只有一个，遇到高峰繁忙时期，一些节假日的时候，通常都会排起非常长的队伍。况且人有三急，卖票的工作人员去上个厕所，那么这个窗口就歇菜了。不过，车站如果多开几个窗口，把购票的人群分别分派到不同的窗口，那么购票的效率就可以得到一定的提升。那么，负载均衡器就像车站的一个工作人员，告诉需要买票的伙伴们，去哪个窗口购票会更快。</p>
-
-<p>负载均衡（Load Balance）是互联网系统的一个关键的部件，它负责将客户端的大量请求根据一定的规则分发到后端的服务器。它有硬件负载均衡和软件负载均衡。硬件负责均衡，是在外部网络和内部服务器集群之间的负载均衡器，比如F5，它的优势是性能高，功能比较强大，并且独立于操作系统，安全性比较高，不过它的价格非常昂贵，系统升级比较麻烦，并且售后服务的成本比较高。</p>
-
-<p>条条大路通罗马，不过有些人，就出生在罗马。如果你就是那个罗马人，那么直接购买部署负载均衡器，简单完事就行了。如果你不是那个罗马人，请接着往下看。</p>
-
-<p>软件<a href="https://baike.baidu.com/item/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1">负载均衡</a>，</p>
-
-<blockquote>
-<p>是指在一台或者多台服务器的操作系统上安装一个或者多个负载均衡软件来实现负载均衡，比如非常著名的LVS，NGINX等。</p>
-</blockquote>
-
-<p>服务端在收到大量客户端请求后，可以在<a href="http://www.blueice.io/2018/03/osi%E6%A8%A1%E5%9E%8B/">OSI模型</a>中的二层，三层，四层和七层进行流量分发。</p>
-
-<p>二层负载均衡，在OSI模型中属于数据链路层，是基于MAC(Media Access Control)地址的负载均衡。在数据链路层，负载均衡器和服务器，必须同处在一个广播域。</p>
-              
-            </div>
-          </div>
-          <div id="post-footer" class="post-footer main-content-wrap">
-            
-              
-                
-                
-                  <div class="post-footer-tags">
-                    <span class="text-color-light text-small">TAGGED IN</span><br/>
-                    
-  <a class="tag tag--primary tag--small" href="http://www.blueice.io/tags/tech/">tech</a>
-
-  <a class="tag tag--primary tag--small" href="http://www.blueice.io/tags/network/">NETWORK</a>
-
-                  </div>
-                
-              
-            
-            
-  <div class="post-actions-wrap">
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://www.blueice.io/2018/03/osi%E6%A8%A1%E5%9E%8B/" data-tooltip="OSI模型">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://www.blueice.io/2018/02/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" data-tooltip="用Hugo建立自己的博客">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
-        </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
-      
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
+      <p>
+        <a href="http://www.blueice.io/2018/04/git/" class="postShorten-excerpt_link link">Continue reading</a>
         
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="http://service.weibo.com/share/share.php?title=http://www.blueice.io/2018/03/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/">
-              <i class="fa fa-weibo"></i>
-            </a>
-          </li>
-        
-      
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
-      <li class="post-action">
-        
-          <a class="post-action-btn btn btn--default" href="#table-of-contents">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
+      </p>
+    </div>
   </div>
-
+  
+</article>
 
             
-              
-                <div id="disqus_thread">
-  <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-</div>
-
-              
             
-          </div>
-        </article>
+
+          </section>
+        
         <footer id="footer" class="main-content-wrap">
   <span class="copyrights">
     &copy; 2018 <a href="http://ca2ju3.coding.me"><img src="http://www.blueice.io/images/China.png" /></a><a href="https://github.com/ca2ju3">蔡钧</a>. All Rights Reserved
@@ -386,79 +298,6 @@
 </footer>
 
       </div>
-      <div id="bottom-bar" class="post-bottom-bar" data-behavior="5">
-        
-  <div class="post-actions-wrap">
-      <nav >
-        <ul class="post-actions post-action-nav">
-          
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://www.blueice.io/2018/03/osi%E6%A8%A1%E5%9E%8B/" data-tooltip="OSI模型">
-              
-                  <i class="fa fa-angle-left"></i>
-                  <span class="hide-xs hide-sm text-small icon-ml">NEXT</span>
-                </a>
-            </li>
-            <li class="post-action">
-              
-                <a class="post-action-btn btn btn--default tooltip--top" href="http://www.blueice.io/2018/02/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/" data-tooltip="用Hugo建立自己的博客">
-              
-                  <span class="hide-xs hide-sm text-small icon-mr">PREVIOUS</span>
-                  <i class="fa fa-angle-right"></i>
-                </a>
-            </li>
-          
-        </ul>
-      </nav>
-    <ul class="post-actions post-action-share" >
-      
-        <li class="post-action hide-lg hide-md hide-sm">
-          <a class="post-action-btn btn btn--default btn-open-shareoptions" href="#btn-open-shareoptions">
-            <i class="fa fa-share-alt"></i>
-          </a>
-        </li>
-        
-          <li class="post-action hide-xs">
-            <a class="post-action-btn btn btn--default" target="new" href="http://service.weibo.com/share/share.php?title=http://www.blueice.io/2018/03/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/">
-              <i class="fa fa-weibo"></i>
-            </a>
-          </li>
-        
-      
-      
-        <li class="post-action">
-          <a class="post-action-btn btn btn--default" href="#disqus_thread">
-            <i class="fa fa-comment-o"></i>
-          </a>
-        </li>
-      
-      <li class="post-action">
-        
-          <a class="post-action-btn btn btn--default" href="#table-of-contents">
-        
-          <i class="fa fa-list"></i>
-        </a>
-      </li>
-    </ul>
-  </div>
-
-
-      </div>
-      <div id="share-options-bar" class="share-options-bar" data-behavior="5">
-  <i id="btn-close-shareoptions" class="fa fa-close"></i>
-  <ul class="share-options">
-    
-      <li class="share-option">
-        <a class="share-option-btn" target="new" href="http://service.weibo.com/share/share.php?title=http%3A%2F%2Fwww.blueice.io%2F2018%2F03%2F%25E8%25B4%259F%25E8%25BD%25BD%25E5%259D%2587%25E8%25A1%25A1%2F">
-          <i class="fa fa-weibo"></i><span>Share on 微博</span>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-<div id="share-options-mask" class="share-options-mask"></div>
-
     </div>
     
     <div id="about">
@@ -647,32 +486,6 @@ $(document).ready(function() {
 });
 </script>
 
-
-  
-    
-      <script>
-        var disqus_config = function () {
-          this.page.url = 'http:\/\/www.blueice.io\/2018\/03\/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1\/';
-          
-            this.page.identifier = 'BLUEICE_LOAD_BALANCE_1';
-          
-        };
-        (function() {
-          
-          
-          if (window.location.hostname == "localhost") {
-            return;
-          }
-          var d = document, s = d.createElement('script');
-          var disqus_shortname = 'blueice-io';
-          s.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-
-          s.setAttribute('data-timestamp', +new Date());
-          (d.head || d.body).appendChild(s);
-        })();
-      </script>
-    
-  
 
 
 

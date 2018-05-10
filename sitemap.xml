@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://www.blueice.io/2018/04/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1---%E5%9F%BA%E4%BA%8Emac/</loc>
+    <lastmod>2018-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.blueice.io/2018/04/git/</loc>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.blueice.io/2018/03/osi%E6%A8%A1%E5%9E%8B/</loc>
     <lastmod>2018-03-21T00:00:00+00:00</lastmod>
   </url>
@@ -33,6 +43,12 @@
   </url>
   
   <url>
+    <loc>http://www.blueice.io/tags/git/</loc>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.blueice.io/tags/hugo/</loc>
     <lastmod>2018-02-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -40,37 +56,37 @@
   
   <url>
     <loc>http://www.blueice.io/tags/network/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.blueice.io/post/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.blueice.io/tags/</loc>
-    <lastmod>2018-02-17T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.blueice.io/tags/tech/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.blueice.io/categories/tech/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://www.blueice.io/</loc>
-    <lastmod>2018-03-21T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
