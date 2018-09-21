@@ -81,7 +81,7 @@
 
 <meta itemprop="datePublished" content="2018-03-16T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2018-03-16T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="661">
+<meta itemprop="wordCount" content="687">
 
 
 
@@ -166,7 +166,7 @@
               <a href="/categories/tech/"> tech </a>
             
           </div>
-        <span class="more-meta"> 661 words </span>
+        <span class="more-meta"> 687 words </span>
         <span class="more-meta"> 2 mins read </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> times read </span>
       </div>
@@ -180,7 +180,13 @@
   <div class="post-toc-content always-active">
     <nav id="TableOfContents">
 <ul>
-<li><a href="#什么是负载均衡">什么是负载均衡</a></li>
+<li><a href="#什么是负载均衡">什么是负载均衡</a>
+<ul>
+<li><a href="#软件-负载均衡-https-baike-baidu-com-item-e8-b4-9f-e8-bd-bd-e5-9d-87-e8-a1-a1">软件<a href="https://baike.baidu.com/item/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1">负载均衡</a>，</a>
+<ul>
+<li><a href="#二层负载均衡-http-blueice-io-2018-04-e8-b4-9f-e8-bd-bd-e5-9d-87-e8-a1-a1-e5-9f-ba-e4-ba-8emac"><a href="http://blueice.io/2018/04/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1---%E5%9F%BA%E4%BA%8Emac/">二层负载均衡</a></a></li>
+</ul></li>
+</ul></li>
 </ul>
 </nav>
   </div>
@@ -195,7 +201,7 @@
 
 <p></p>
 
-<p>当前几乎所有的互联网系统都会使用到负载均衡。<strong>TODO</strong></p>
+<p>当前几乎所有的互联网系统都会使用到负载均衡，这里主要说的是基于http协议的负载均衡。<strong>TODO</strong></p>
 
 <h1 id="什么是负载均衡">什么是负载均衡</h1>
 
@@ -205,7 +211,7 @@
 
 <p>条条大路通罗马，不过有些人，就出生在罗马。如果你就是那个罗马人，那么直接购买部署负载均衡器，简单完事就行了。如果你不是那个罗马人，请接着往下看。</p>
 
-<p>软件<a href="https://baike.baidu.com/item/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1">负载均衡</a>，</p>
+<h2 id="软件-负载均衡-https-baike-baidu-com-item-e8-b4-9f-e8-bd-bd-e5-9d-87-e8-a1-a1">软件<a href="https://baike.baidu.com/item/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1">负载均衡</a>，</h2>
 
 <blockquote>
 <p>是指在一台或者多台服务器的操作系统上安装一个或者多个负载均衡软件来实现负载均衡，比如非常著名的LVS，NGINX等。</p>
@@ -213,7 +219,9 @@
 
 <p>服务端在收到大量客户端请求后，可以在<a href="/2018/03/osi%E6%A8%A1%E5%9E%8B/">OSI模型</a>中的二层，三层，四层和七层进行流量分发。</p>
 
-<p><a href="http://blueice.io/2018/04/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1---%E5%9F%BA%E4%BA%8Emac/">二层负载均衡</a>，在OSI模型中属于数据链路层，是基于MAC(Media Access Control)地址的负载均衡。在数据链路层，负载均衡器和服务器，必须同处在一个广播域。</p>
+<h3 id="二层负载均衡-http-blueice-io-2018-04-e8-b4-9f-e8-bd-bd-e5-9d-87-e8-a1-a1-e5-9f-ba-e4-ba-8emac"><a href="http://blueice.io/2018/04/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1---%E5%9F%BA%E4%BA%8Emac/">二层负载均衡</a></h3>
+
+<p>在OSI模型中属于数据链路层，二层负载均衡是基于MAC(Media Access Control)地址的负载均衡。在数据链路层，负载均衡器和服务器，必须同处在一个广播域。</p>
     </div>
 
     
