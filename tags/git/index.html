@@ -1,4 +1,10 @@
-<meta name="renderer" content="webkit" />
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Git · 蔡钧的博客</title>
+  <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
 <meta http-equiv="Cache-Control" content="no-transform" />
@@ -10,8 +16,9 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="I&#39;m 蔡钧." />
-  <meta name="description" content="蔡钧的个人博客,技术博客,IT博客,blog" />
+<meta name="author" content="蔡钧" />
+  <meta name="description" content="蔡钧的个人博客,技术博客,IT博客,blog,q:1506567" />
+  <meta name="keywords" content="技术博客, 蔡钧" />
 
 
 
@@ -25,26 +32,26 @@
 <link href="http://www.blueice.io/tags/git/index.xml" rel="alternate" type="application/rss+xml" title="蔡钧的博客" />
   <link href="http://www.blueice.io/tags/git/index.xml" rel="feed" type="application/rss+xml" title="蔡钧的博客" />
 
-<link rel="apple-touch-icon" sizes="180x180" href="http://www.blueice.io/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://www.blueice.io/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="http://www.blueice.io/favicon-16x16.png">
-<link rel="manifest" href="http://www.blueice.io/manifest.json">
-<link rel="mask-icon" href="http://www.blueice.io/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
 
 
 
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
 
-
-<link href="http://www.blueice.io/dist/even.min.css?v=3.2.0" rel="stylesheet">
-
+<link href="/dist/even.min.css?v=3.2.0" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
 
 
 <meta property="og:title" content="Git" />
-<meta property="og:description" content="蔡钧的个人博客,技术博客,IT博客,blog" />
+<meta property="og:description" content="蔡钧的个人博客,技术博客,IT博客,blog,q:1506567" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://www.blueice.io/tags/git/" />
 
@@ -62,11 +69,11 @@
 
 
 <meta itemprop="name" content="Git">
-<meta itemprop="description" content="蔡钧的个人博客,技术博客,IT博客,blog">
+<meta itemprop="description" content="蔡钧的个人博客,技术博客,IT博客,blog,q:1506567">
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Git"/>
-<meta name="twitter:description" content="蔡钧的个人博客,技术博客,IT博客,blog"/>
+<meta name="twitter:description" content="蔡钧的个人博客,技术博客,IT博客,blog,q:1506567"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -77,394 +84,155 @@
   <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
 <![endif]-->
 
-  <body>
-    <div id="blog">
-      <div class="logo-wrapper">
-  <a href="http://www.blueice.io/" class="logo">蔡钧的博客</a>
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Chase</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a>
+  </ul>
+</nav>
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Chase</a>
 </div>
 
 <nav class="site-navbar">
   <ul id="menu" class="menu">
     <li class="menu-item">
-        <a class="menu-item-link" href="http://www.blueice.io/">Home</a>
+        <a class="menu-item-link" href="/">Home</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="http://www.blueice.io/categories">Categories</a>
+        <a class="menu-item-link" href="/post/">Archives</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="http://www.blueice.io/tags">Tags</a>
+        <a class="menu-item-link" href="/tags/">Tags</a>
       </li><li class="menu-item">
-        <a class="menu-item-link" href="http://www.blueice.io/archives">Archives</a>
+        <a class="menu-item-link" href="/categories/">Categories</a>
       </li>
   </ul>
 </nav>
-      <nav id="sidebar" data-behavior="">
-  <div class="sidebar-container">
-    
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://www.blueice.io/">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-home"></i>
-      
-      <span class="sidebar-button-desc">Home</span>
-    </a>
-  </li>
+    </header>
 
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://www.blueice.io/categories">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-bookmark"></i>
-      
-      <span class="sidebar-button-desc">Categories</span>
-    </a>
-  </li>
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          
 
-  <li class="sidebar-button">
+<section id="archive" class="archive">
+  
     
-      <a class="sidebar-button-link " href="http://www.blueice.io/tags">
+      <div class="archive-title tag">
+        <h2 class="archive-name">Git</h2>
+      </div>
     
-      <i class="sidebar-button-icon fa fa-lg fa-tags"></i>
-      
-      <span class="sidebar-button-desc">Tags</span>
-    </a>
-  </li>
+  
 
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://www.blueice.io/archives">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-archive"></i>
-      
-      <span class="sidebar-button-desc">Archives</span>
-    </a>
-  </li>
+  
+    <div class="archive-post">
+      <span class="archive-post-time">
+        2018-04-09
+      </span>
+      <span class="archive-post-title">
+        <a href="/post/git/" class="archive-post-link">
+          Git
+        </a>
+      </span>
+    </div>
+  
+</section>
 
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="https://github.com/ca2ju3" target="_blank" rel="noopener">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-github"></i>
-      
-      <span class="sidebar-button-desc">GitHub</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://wpa.qq.com/msgrd?v=3&amp;uin=1506567&amp;site=qq&amp;menu=yes" target="_blank" rel="noopener">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-qq"></i>
-      
-      <span class="sidebar-button-desc">1506567</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://www.blueice.io/wechat">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-weixin"></i>
-      
-      <span class="sidebar-button-desc">WeChat</span>
-    </a>
-  </li>
-
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="//ca2ju3.coding.me">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-flag"></i>
-      
-      <span class="sidebar-button-desc">国内</span>
-    </a>
-  </li>
-
-
-    </ul>
-    <ul class="sidebar-buttons">
-      
-  <li class="sidebar-button">
-    
-      <a class="sidebar-button-link " href="http://www.blueice.io/index.xml">
-    
-      <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
-      
-      <span class="sidebar-button-desc">RSS</span>
-    </a>
-  </li>
-
-
-    </ul>
-  </div>
+<nav class="pagination">
+  
+  
 </nav>
 
-      
-        
-
-      
-      <div id="main" data-behavior=""
-        class="
-               hasCoverMetaIn
-               ">
-        
-          <section class="postShorten-group main-content-wrap">
-            
-            
-              <article class="post">
-  <header class="post-header">
-    <h1 class="post-title"><a class="post-link" href="http://www.blueice.io/2018/04/git/">Git</a></h1>
-    <div class="post-meta">
-      <span class="post-time"> 2018-04-09 </span>
-      <div class="post-category">
-          
-            <a href="http://www.blueice.io/categories/tech/"> tech </a>
-          
         </div>
-      
-    </div>
-  </header>
-  
-  <div class="post-content">
-    <div class="post-summary">
-      <!--toc-->
-
-<p></p>
-    </div>
-    <div class="read-more">
-      <a href="http://www.blueice.io/2018/04/git/" class="read-more-link"></a>
-    </div>
-  </div>
-</article>
-
-            
-            
-
-          </section>
         
-        <div class="social-links">
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:your@email.com" class="iconfont icon-email" title="email"></a>
+      <a href="http://localhost:1313" class="iconfont icon-github" title="github"></a>
+      <a href="http://localhost:1313" class="iconfont icon-zhihu" title="zhihu"></a>
+      <a href="http://localhost:1313" class="iconfont icon-instagram" title="instagram"></a>
   <a href="http://www.blueice.io/index.xml" type="application/rss+xml" class="iconfont icon-rss" title="rss"></a>
 </div>
 
 <div class="copyright">
   <span class="power-by">
-    %!(EXTRA string=<a class="hexo-link" href="https://gohugo.io">Hugo</a>)
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
   </span>
   <span class="division">|</span>
   <span class="theme-info">
-     - 
+    主题 - 
     <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
   </span>
 
-  
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+    <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
 
   <span class="copyright-year">
     &copy; 
     
-       - 
+      2017 - 
     2018
     <span class="heart">
       <i class="iconfont icon-heart"></i>
     </span>
-    <span class="author">I'm 蔡钧.</span>
+    <span class="author">蔡钧</span>
   </span>
 </div>
-      </div>
-    </div>
-    
-    <div id="about">
-  <div id="about-card">
-    <div id="about-btn-close">
-      <i class="fa fa-remove"></i>
-    </div>
-    
-    <h4 id="about-card-name">I&#39;m 蔡钧.</h4>
-    
-      <div id="about-card-bio">我是一个超过10年工作经验的大城市外来务工人员，擅长搬砖，码墙！</div>
-    
-    
-      <div id="about-card-job">
-        <i class="fa fa-briefcase"></i>
-        <br/>
-        Hello world!
-      </div>
-    
-    
-      <div id="about-card-location">
-        <i class="fa fa-map-marker"></i>
-        <br/>
-        Canton, China
-      </div>
-    
-  </div>
-</div>
+    </footer>
 
-    <div id="algolia-search-modal" class="modal-container">
-  <div class="modal">
-    <div class="modal-header">
-      <span class="close-button"><i class="fa fa-close"></i></span>
-      <a href="https://algolia.com" target="_blank" rel="noopener" class="searchby-algolia text-color-light link-unstyled">
-        <span class="searchby-algolia-text text-color-light text-small">by</span>
-        <img class="searchby-algolia-logo" src="https://www.algolia.com/static_assets/images/press/downloads/algolia-light.svg">
-      </a>
-      <i class="search-icon fa fa-search"></i>
-      <form id="algolia-search-form">
-        <input type="text" id="algolia-search-input" name="search"
-          class="form-control input--large search-input" placeholder="Search" />
-      </form>
-    </div>
-    <div class="modal-body">
-      <div class="no-result text-color-light text-center">no post found</div>
-      <div class="results">
-        
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="http://www.blueice.io/2018/04/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1---%E5%9F%BA%E4%BA%8Emac/">
-                <h3 class="media-heading">负载均衡 - 基于MAC</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Apr 4, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><!--toc-->
-
-<p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="http://www.blueice.io/2018/04/git/">
-                <h3 class="media-heading">Git</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Apr 4, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><!--toc-->
-
-<p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="http://www.blueice.io/2018/03/osi%E6%A8%A1%E5%9E%8B/">
-                <h3 class="media-heading">OSI模型</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><!--toc-->
-
-<p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="http://www.blueice.io/2018/03/%E8%B4%9F%E8%BD%BD%E5%9D%87%E8%A1%A1/">
-                <h3 class="media-heading">负载均衡</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Mar 3, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><!--toc-->
-
-<p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-          <div class="media">
-            
-            <div class="media-body">
-              <a class="link-unstyled" href="http://www.blueice.io/2018/02/%E7%94%A8hugo%E5%BB%BA%E7%AB%8B%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2/">
-                <h3 class="media-heading">用Hugo建立自己的博客</h3>
-              </a>
-              <span class="media-meta">
-                <span class="media-date text-small">
-                  Feb 2, 2018
-                </span>
-              </span>
-              <div class="media-content hide-xs font-merryweather"><!--toc-->
-
-<p></p></div>
-            </div>
-            <div style="clear:both;"></div>
-            <hr>
-          </div>
-        
-      </div>
-    </div>
-    <div class="modal-footer">
-      <p class="results-count text-medium"
-         data-message-zero="no post found"
-         data-message-one="1 post found"
-         data-message-other="{n} posts found">
-         5 posts found
-      </p>
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
     </div>
   </div>
-</div>
-    
   
-    
-    <div id="cover" style="background-image:url('http://www.blueice.io/images/cover.jpg');"></div>
-  
+<script src="/lib/highlight/highlight.pack.js?v=20171001"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
 
 
-    
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.7/js/jquery.fancybox.min.js" integrity="sha256-GEAnjcTqVP+vBp3SSc8bEDQqvWAZMiHyUSIorrWwH50=" crossorigin="anonymous"></script>
-
-
-<script src="http://www.blueice.io/js/script-qi9wbxp2ya2j6p7wx1i6tgavftewndznf4v0hy2gvivk1rxgc3lm7njqb6bz.min.js"></script>
-
+<script type="text/javascript" src="/dist/even.min.js?v=3.2.0"></script>
 
 
 <script>
-$(document).ready(function() {
-  hljs.configure({ classPrefix: '', useBR: false });
-  $('pre.code-highlight > code, pre > code').each(function(i, block) {
-    if (!$(this).hasClass('codeblock')) {
-      $(this).addClass('codeblock');
-    }
-    hljs.highlightBlock(block);
-  });
-});
+window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+ga('create', 'UA-86167312-1', 'auto');
+ga('send', 'pageview');
 </script>
+<script async src='//www.google-analytics.com/analytics.js'></script>
 
 
 
 
-    
-  </body>
+
+
+
+</body>
 </html>
-

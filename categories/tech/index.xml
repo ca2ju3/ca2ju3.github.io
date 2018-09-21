@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tech on 蔡钧的博客</title>
+    <link>http://www.blueice.io/categories/tech/</link>
+    <description>Recent content in Tech on 蔡钧的博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 13 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.blueice.io/categories/tech/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>负载均衡 - 基于MAC</title>
+      <link>http://www.blueice.io/post/load_balance_mac/</link>
+      <pubDate>Fri, 13 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.blueice.io/post/load_balance_mac/</guid>
+      <description>&lt;!--toc--&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>http://www.blueice.io/post/git/</link>
+      <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.blueice.io/post/git/</guid>
+      <description>&lt;!--toc--&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>OSI模型</title>
+      <link>http://www.blueice.io/post/osi/</link>
+      <pubDate>Wed, 21 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.blueice.io/post/osi/</guid>
+      <description>&lt;!--toc--&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>负载均衡</title>
+      <link>http://www.blueice.io/post/load_balance_1/</link>
+      <pubDate>Fri, 16 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.blueice.io/post/load_balance_1/</guid>
+      <description>&lt;!--toc--&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>用Hugo建立自己的博客</title>
+      <link>http://www.blueice.io/post/blog-hugo/</link>
+      <pubDate>Sat, 17 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.blueice.io/post/blog-hugo/</guid>
+      <description>&lt;!--toc--&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
