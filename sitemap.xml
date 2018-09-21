@@ -86,14 +86,14 @@
   </url>
   
   <url>
-    <loc>http://www.blueice.io/categories/tech/</loc>
+    <loc>http://www.blueice.io/tags/tech/</loc>
     <lastmod>2018-04-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://www.blueice.io/tags/tech/</loc>
+    <loc>http://www.blueice.io/categories/tech/</loc>
     <lastmod>2018-04-13T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0</priority>
